@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: test
+  build:
+    version: 1.23
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,refresh
